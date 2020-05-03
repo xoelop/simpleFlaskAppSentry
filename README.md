@@ -1,4 +1,7 @@
 # Simple project to try out sentry, it doesn't work
+I'm trying to use Sentry to track errors on one of my projects and can't get it to work. It should be the simplest thing and I used it some months ago in another project, so I don't know what I'm doing wrong. 
+
+This is a simple project to make it work but it's still not working
 
 ## Installation
 Run `pipenv install`
