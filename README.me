@@ -1,0 +1,21 @@
+# Simple project to try out sentry, it doesn't work
+
+## Installation
+Run `pipenv install`
+
+## Running
+
+When doing `python sentry_test.py`, two errors should be sent to sentry. Doesn't happen and this is the output in the terminal:
+```
+Traceback (most recent call last):
+  File "test.py", line 5, in <module>
+    division_by_zero = 1 / 0
+ZeroDivisionError: division by zero
+Sentry is attempting to send 0 pending error messages
+Waiting up to 2 seconds
+Press Ctrl-C to quit
+```
+
+The most strange line is that `Sentry is attempting to send 0 pending error messages`. Why?
+
+Also, when running the flask app locally with `flask run` and going to http://localhost:5000/debug-sentry, no errors are sent to Sentry
