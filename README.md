@@ -19,6 +19,6 @@ Waiting up to 2 seconds
 Press Ctrl-C to quit
 ```
 
-The most strange line is that `Sentry is attempting to send 0 pending error messages`. Why?
+The most strange line is that `Sentry is attempting to send 0 pending error messages`. Why 0 instead of 2?
 
 Also, when running the flask app locally with `flask run` and going to http://localhost:5000/debug-sentry, no errors are sent to Sentry
